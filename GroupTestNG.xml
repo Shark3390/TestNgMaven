@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smoke" />
+		</run>
+	</groups>
+	<parameter name="browserName" value="Chrome" />
+
+	<test name="Smoke Test">
+		<classes>
+			<class name="com.smart.group2.TestClass" />
+			<class name="com.smart.group2.BaseClass" />
+		</classes>
+	</test>
+</suite> 

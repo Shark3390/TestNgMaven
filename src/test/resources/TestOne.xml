@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuiteOne">
+	<test name="SmokeTest">
+		<classes>
+			<class name="com.qa.testNg.ClassOne">
+				<methods>
+					<include name="facebookTest" />
+					<include name="googleTest" />
+				</methods>
+			</class>
+			<class name="com.qa.testNg.ClassTwo" />
+		</classes>
+	</test>
+
+	<test name="FacebookTest">
+		<classes>
+			<class name="com.qa.testNg.ClassOne">
+				<methods>
+					<include name="facebookTest" />
+					<include name="googleTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
